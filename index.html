@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB to HEX(slider)</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+    integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="app">
+    <div class="slider">
+      <div class="color-box red">
+        <div class="color R" style="background-color: rgb(255,0,0)">R</div>
+        <i class="fas fa-minus-circle"></i>
+        <input class="red-slider" type="range" min="0" max="255" step="1" value="0">
+        <i class="fas fa-plus-circle"></i>
+        <div class="number R-number" style="background-color: rgb(255,0,0)">0</div>
+      </div>
+      <div class="color-box green">
+        <div class="color G" style="background-color: rgb(0,255,0)">G</div>
+        <i class="fas fa-minus-circle"></i>
+        <input class="green-slider" type="range" min="0" max="255" step="1" value="0">
+        <i class="fas fa-plus-circle"></i>
+        <div class="number G-number" style="background-color: rgb(0,255,0)">0</div>
+      </div>
+      <div class="color-box blue">
+        <div class="color B" style="background-color: rgb(0,0,255)">B</div>
+        <i class="fas fa-minus-circle"></i>
+        <input class="blue-slider" type="range" min="0" max="255" step="1" value="0">
+        <i class="fas fa-plus-circle"></i>
+        <div class="number B-number" style="background-color: rgb(0,0,255)">0</div>
+      </div>
+      <div class="output">#000000</div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

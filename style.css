@@ -1,0 +1,76 @@
+/* * {border: 1px solid black;} */
+
+body {
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+.slider {
+  padding: 5px;
+  border: 1px solid;
+}
+
+.color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  font-weight: bold;
+  font-size: 23px;
+  border-radius: 3px;
+  margin-right: 5px; 
+  border: 1px solid black;
+}
+
+.output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 45px;
+  border-radius: 3px;
+  background-color: rgba(255,255,255,0.4);
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 25px;
+  font-weight: bold;
+  font-size: 23px;
+  border-radius: 3px;
+  margin-left: 5px;
+  border: 1px solid black;
+}
+
+.color-box {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.fas:hover {
+  cursor: pointer;
+}
+
+.fa-minus-circle {
+  margin-right: 5px;
+}
+
+.fa-plus-circle {
+  margin-left: 5px;
+}
